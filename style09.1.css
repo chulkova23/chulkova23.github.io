@@ -21,5 +21,5 @@ background-repeat: no-repeat;}
 	background-attachment: fixed;
 	background-repeat: no-repeat;}
 #iz{
-background:orange url("9.5.jpg"); fixed bottom right space;
+background:orange url("9.5.jpg"); fixed; bottom right; space;
 }
