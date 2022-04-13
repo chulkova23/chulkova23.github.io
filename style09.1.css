@@ -10,6 +10,11 @@ background-image: url("9.2.jpg");
 background-attachment:fixed;
 background-position: center top; 
 background-repeat: no-repeat;}
+#content3{
+background-image: url("9.3.jpg"); 
+background-attachment:fixed;
+background-position: center top; 
+background-repeat: no-repeat;}
 #content4{
   background-image: url(9.4.jpg");
 	background-position: right;
