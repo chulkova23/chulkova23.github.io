@@ -10,3 +10,14 @@ background-image: url("9.2.png");
 background-attachment:fixed;
 background-position: center top; 
 background-repeat: no-repeat;}
+#content3{
+  background-image: url("9.3.png");
+	background-position: top;/*background-attachment: fixed;*/
+	background-repeat: no-repeat;}
+#content4{
+  background-image: url(9.4.png");
+	background-position: right;/*background-attachment: fixed;*/
+	background-repeat: no-repeat;}
+#iz{
+background:orange url("9.5.png") fixed bottom right space;
+}
