@@ -1,0 +1,67 @@
+<!doctype html> 
+<html> 
+<head> 
+<title>Гіпертекстовий документ</title> 
+<meta charset="utf-8">
+<style>
+#t1{letter-spacing: 15px;}
+#pic2{border:solid 2px blue;}
+</style> 
+<script> 
+function $() 
+{ var elements = new Array(); 
+for (var i = 0; i < 
+arguments.length; i++) 
+{ var element = arguments[i]; 
+if (typeof element == 'string') 
+element =document.getElementById(element); 
+if (arguments.length == 1) 
+return element; 
+elements.push(element); 
+} 
+return elements; } 
+function f() 
+{ 
+alert('Наступила подія onmouseover. Після закриття цього вікна ви побочете жовтий бардюр і розширення зображення'); 
+$("pic1").style.border="solid 2px yellow"; 
+$("pic1").style.width="500px"; 
+} 
+function g() 
+{ 
+alert('Наступила подія onmouseout. Після закриття цього вікна ви побочете зміну коліру бардюру на червоний і зменшення ширини зображення до 50 px'); 
+$("pic1").style.borderColor="red"; 
+$("pic1").style.width="50px"; 
+} 
+function ff()
+{$("pic2").style.borderBottomStyle="dotted"; borderRightWidth="50px"; 
+$("pic2").style.marginTop="50px"; 
+$("pic2").style.cursor="pointer"; 
+$("t1").style.letterSpacing= "3px";
+$("pic2").style.float="none";
+$("pic2").style.top="2.4em";
+}
+</script> 
+</head> 
+<body>
+<img src="images1234.png" 
+alt="логотип сайту" 
+id="pic1" onmouseover="f()" 
+onmouseout="g()"> 
+<p><center><font face="Verdana"><font size="3"><font color="orange">Варіант 10</font></font></font></center></p>
+<img src="lab11.1.jpg" 
+<ul> 
+<li><font color="purple">10.border-bottom-style</font></li>
+<li><font color="purple">20.border-right-width</font></li>
+<li><font color="purple">30.cursor</font></li>
+<li><font color="purple">40.letter-spacing</font></li>
+<li><font color="purple">50.margin-top</font></li>
+<li><font color="purple">60.float</font></li>
+<li><font color="purple">70.top</font></li>
+</ul>
+<img src="images1234.png" id="pic2" ondblclick="ff()" >
+<div class="text" >
+<div id = "t1">Компьютерная мышь
+</div>
+</div> 
+</body> 
+</html>
