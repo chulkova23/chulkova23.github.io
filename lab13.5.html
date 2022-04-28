@@ -6,13 +6,57 @@
 <link rel="stylesheet" 
 href="style/style.css">
 </head>
-<body>
+<body bgcolor="#4EB09E">
  <div id="container">
  <div id="header">
  </div>
  <div id="menu">
  </div>
- <div id="content">
+ <div id="content" class="vidstup">
+  <img src="for2.png" alt="Схема роботи оператора for,while" style="width:100%;">
+     <h1>Задача 2 Тема:вкладений цикл while</h1>
+    <p>Намалювати * в N  рядках кількість зірочок в кожному рядку= номеру рядка </p>
+    <script>
+        var n, i, j;
+        n=25;
+        i=1;
+        while(i<=n)
+           {j=1;
+        while(j<=i)
+          {
+            document.write('*');
+           j++;
+          }
+        document.write('<br>');
+           i++;
+            }
+    </script>
+    <h1>Задача 2 Тема:цикл for</h1>
+    <p>Намалювати * в N  рядках кількість зірочок в кожному рядку= номеру рядка </p>
+    <script>
+        var n, i,j;
+        n=25;
+        for(i=1;i<=n;i++)
+        {for(j=1;j<=i;j++)
+          {
+           document.write(i);
+          }
+         document.write('<br>');
+        }
+    </script>
+<h1>Задача 3 Тема:вкладений цикл while</h1>
+    <p>Намалювати * в N  рядках кількість зірочок в кожному рядку= n+1 - номер рядка</p>
+    <script>
+        var n, i, j;
+        n=25;
+        for(i=1;i<=n;i++)
+        {for(j=n;j>=i;j--)
+          {
+           document.write('*');
+          }
+         document.write('<br>');
+        }
+    </script>
  </div>
  <div id="footer">
  </div>
