@@ -5,6 +5,21 @@
 <meta charset="utf-8">
 <link rel="stylesheet" 
 href="style/style.css">
+ function f1()
+ {var a1, P1,S1; 
+ a1=31; 
+ P1=4*a1; 
+ S1=a1*a1; 
+ document.getElementById('zd16').innerHTML='Повних метрів='+lm+'<br>';
+      }
+    function f17()
+    { var M;
+       M=3024;
+       lm=M/1000;
+ 
+ document.getElementById('zd18').innerHTML='Повних кілобайтів='+lm+'<br>';
+      }
+</script>
 </head>
 <body bgcolor="#AEF0FA">
  <div id="container">
@@ -12,7 +27,21 @@ href="style/style.css">
  </div>
  <div id="menu">
  </div>
- <div id="content">
+ <div id="content" class="vidstup">
+  <h1>Задача 16</h1>
+    <p> . Дано відстань L в сантиметрах. Використовуючи операцію ділення націло, знайти кількість повних метрів в ньому (1 метр = 100 см). Вивести умову задачі, початкові значення та результуючі. 
+</p>
+<h1 id="zd16"></h1>
+<form>
+         <input type="button" value="Розв'язок задача 16" onclick="f16()">
+    </form>
+  <h1>Задача 18</h1>
+<p>. Дан розмір файлу в байтах. Використовуючи операцію ділення націло, знайти кількість повних кілобайт, які займає даний файл (1 кілобайт = 1024 байта). Вивести умову задачі, початкові значення та результуючі. 
+</p>
+<h1 id="zd18"></h1>
+<from>
+    <input type="button" value="Розв'язок задача 18" onclick="f18()">
+</form>
  </div>
  <div id="footer">
  </div>
